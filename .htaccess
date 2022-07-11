@@ -1,0 +1,5 @@
+Options All -Indexes
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public [L]
